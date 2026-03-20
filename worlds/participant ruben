@@ -17,7 +17,7 @@ lado_quadrado = 2
 angulo_linha_recta = 2*lado_quadrado/diametro_roda
 print("Para percorrer 2m em linha reta o ângulo da roda é %f rad" %angulo_linha_recta)
 #Calculo do angulo a ser percorrido pela roda na viragem
-percurso_roda_viragem = 1/2*3.141592*(0.33/2)*0.881
+percurso_roda_viragem = 1/2*3.141592*(0.33/2)
 print("O percurso da curva é %f metros" %percurso_roda_viragem)
 angulo_viragem = 2*percurso_roda_viragem/diametro_roda
 print("para que o robo vire 90graus, as rodas têm que ter o ângulo de %f rad" %angulo_viragem)
