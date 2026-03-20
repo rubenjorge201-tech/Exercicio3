@@ -38,7 +38,7 @@ for i in range(0, 4):
         valor_actual_roda_direita = rightWheelSensor.getValue()
         robot.step(16)
         
-    valor_inicial_roda_direita_curva = rightWheelSensor.getValue()
+     valor_inicial_roda_direita_curva = rightWheelSensor.getValue()
     leftWheel.setPosition(1000)
     rightWheel.setPosition(-1000)
     
